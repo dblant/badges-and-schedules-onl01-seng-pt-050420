@@ -21,7 +21,7 @@ rooms = [1,2,3,4,5,6,7]
 def assign_rooms(speakers)
     greet = []
     speakers.each_with_index{ |speakers, index| greet << "Hello, #{speakers}! You'll be assigned to room #{index+1}!"
-    
+    return greet
 end
 assign_rooms(7)
 end
