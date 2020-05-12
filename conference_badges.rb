@@ -25,4 +25,13 @@ def assign_rooms(speakers)
   end
 
 def printer
-  sum1=batch_badg
+  sum1 = batch_badge_creator(attendees)
+  sum1.each do |badge|
+    puts badge
+  end
+  sum2 = assign_rooms(attendees)
+  sum2.each do |badge|
+    puts badge 
+  end
+end
+  
