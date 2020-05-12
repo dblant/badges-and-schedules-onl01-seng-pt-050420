@@ -25,4 +25,4 @@ def assign_rooms(speakers)
   end
 
 def printer
-  sum1
+  sum1=batch_badg
